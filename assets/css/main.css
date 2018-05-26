@@ -183,7 +183,7 @@ nav li {
 /* Parent And Child Containers */
 .container_p1 {
     width: 100%;
-    height: 500px;
+    height: 300px;
     background: slateblue;
     display: flex; 
 }
@@ -192,7 +192,7 @@ nav li {
     width: 60%;
     background: #bbf;
 }
-
+    
 .container_c2 {
     width: 40%;
     background: #eee;
@@ -209,3 +209,16 @@ nav li {
     height: 100px;
     background: #bbf;
 }
+
+.container_c1, .item_9 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container_c2, .item_10 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
