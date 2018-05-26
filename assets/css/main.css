@@ -186,6 +186,7 @@ nav li {
     height: 300px;
     background: slateblue;
     display: flex; 
+    margin-top: 10px; 
 }
 
 .container_c1 {
@@ -222,3 +223,51 @@ nav li {
     align-items: center;
 }
 
+.container_p2 {
+    width: 100%;
+    height: 300px;
+    background: #c11;
+    display: flex;
+    margin-top: 10px; 
+}
+
+.container_c3 {
+    width: 40%;
+    background: #6af; 
+}
+
+.container_c4 {
+    width: 60%;
+    background: rgb(18, 43, 73);
+}
+
+.item_11 {
+    width: 80%;
+    height: 100px;
+    background: rgb(168, 16, 16);
+}
+
+.item_12 {
+    width: 80%;
+    height: 100px;
+    background: rgb(224, 72, 72);
+}
+
+.item_13 {
+    width: 75%;
+    height: 150px;
+    background: #6af;
+}
+
+.container_c3, .item_11 {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-end;
+}
+
+.container_c4, .item_12, .item_13 {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+
+}
